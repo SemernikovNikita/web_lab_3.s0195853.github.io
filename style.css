@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', cursive;
+}
+
+body{
+    background-repeat: repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100%;
+}
+
+header{
+    background-color: #6495ED;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 25px;
+    top: 0;
+}
+
+#header-top{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#center{
+    width: 100%;
+    margin: auto;
+    background-color: #6495ED;
+    margin-bottom: 25px;
+    flex: 1;
+    
+}
+
+#order {
+    display: flex;
+    flex-direction: column;
+}
+
+.list{
+    padding-left: 35px;
+    margin-top: auto; 
+}
+
+#list-name{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+#forma{
+    width: 100%;
+    margin: auto;
+    background-color: #6495ED;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name{
+    margin-top: 30px;
+    margin: 10;
+    float: right;
+    color: #bdc4d4;
+    font-size: large;
+    margin-left: 20px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    float: left;
+
+}
+
+nav{
+    margin-top: 25px;
+    margin: 10;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6495ED;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.nav-link{
+    padding-left:30px ;
+    font-size: 25px;
+    color: #011427;
+    font-family: Courier New, monospace;
+}
+
+#tablic{
+    margin: auto;
+    width: 100%;
+    margin-top: 145px;
+    margin-bottom: 25px;
+    border: 1px solid grey;
+    color: #000124;
+    text-align: center;
+    order: -1;
+}
+
+th {
+   border: 1px solid grey;
+}
+
+td {
+   border: 1px solid grey;
+}
+
+.chet{
+    background: #6495ED;
+}
+
+.link{
+    padding-left:30px ;
+    font-size: 25px;
+    color: #bdc4d4;
+    font-family: 'Century Gothic', cursive;
+    display: flex;
+}
+
+footer{
+    background-color: #6495ED;
+    width: 100%;
+    height: 60px;
+}
+
+.name2{
+    margin-left: 30px;
+    margin-top: 15px;
+    float: left;
+    color: #bdc4d4;
+}
+
+
+
+@media (min-width: 767px){
+    
+    header{
+        position: relative;
+        background-color: #6495ED;
+        width: 100%;
+        height: 140px;
+        margin-bottom: 25px;
+        top: 0;
+    }
+    
+    nav{
+        z-index: 0;
+        right: 0;
+        top: 0;
+        position: absolute;
+        float: right;
+        margin: 20px;
+        max-width: 960px;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #tablic{
+        margin: 10;
+        max-width: 960px;
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border: 1px solid grey;
+        color: #000124;
+        text-align: center;
+    }
+    #forma{
+        max-width: 960px;
+        width: 100%;
+        margin: auto;
+        background-color: #6495ED;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #center{
+        max-width: 960px;
+        width: 80%;
+        margin: auto;
+        background-color: #6495ED;
+        margin-bottom: 25px;
+        margin-top: 25px; 
+        order: 1;
+    }
+
+    .name{
+        margin-top: 56px;
+        float: left;
+        color: #bdc4d4;
+        font-size: xx-large;
+    }
+
+    #logo{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .link{
+        padding-left:30px ;
+        font-size: 25px;
+        color: #bdc4d4;
+        font-family: 'Century Gothic', cursive;
+    }
+
+    #header-top{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    #order {
+    display: block;
+    .tablic{
+        order: 0;
+    }
+    #center{
+        order: 0;
+    }
+    }
+    
+}
