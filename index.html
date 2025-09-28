@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<title>Лабораторная работа 3</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+<body>
+	
+	<header>
+		<div id="header-top">	
+			<img src="https://avatars.mds.yandex.net/i?id=a2c747a3ccfa4d287e074cb7c474dc24c97eb28f-17641277-images-thumbs&n=13" alt="" id="logo" width="100px";>
+			<h1 class="name">Лабораторная работа 3</h1>
+
+		</div>
+		<nav>
+			<a class="link" href="#center">Список ссылок</a>
+			<a class="link" href="#tablic">Таблица</a>
+			<a class="link" href="#forma">Форма</a>
+		</nav>
+	</header>
+
+	<div id="order">
+		<div id="center">
+		<h2 id="list-name">Список гиперссылок</h2>
+			<ul class="list">  	 
+				<li><a class="nav-link" href="http://www.kubsu.ru" title="Официальный сайт КубГУ"> Ссылка на сайт КубГУ первая</a></li>
+				<li><a class="nav-link" href="https://www.kubsu.ru" title="Официальный сайт КубГУ"> Ссылка на сайт КубГУ вторая</a></li>
+				<li><a class="nav-link" href="https://www.kubsu.ru"><img src="https://avatars.mds.yandex.net/i?id=82b93ff4ec4fc1a0b1e3df7bfdd8a1293bd8eb98-16441608-images-thumbs&n=13" alt="цветочек" style="width: 200px";" ></a></li>
+				<li><a class="nav-link" href="inside/inside_first.html"> Сокращенная ссылка на внутренню страницу</a></li>
+				<li><a class="nav-link" href="index.html"> Сокращенная ссылка на главную страницу</a></li>
+				<li><a class="nav-link" href="#element"> Ссылка на фрагмент страницы</a></li>
+				<li><a class="nav-link" href="index.html?user=123&profile=234&cat=0"> Ссылка с 3 параметрами в URL</a></li>
+				<li><a class="nav-link" href="index.html?id=123"> Ссылка с парамтером id в URL</a></li>
+				<li><a class="nav-link" href="./incatalog.html"> Ссылка на страницу в текущем каталоге</a></li>
+				<li><a class="nav-link" href="./about/about.html"> Ссылка на страницу в каталоге about</a></li>
+				<li><a class="nav-link" href="../1step.html"> Ссылка на страницу в каталоге уровнем выше</a></li>
+				<li><a class="nav-link" href="../../2step.html"> Ссылка на страницу в каталоге двумя уровнями выше</a></li>
+				<li class="nav-link" >
+
+						Невероятно осмысленный текст 
+						<a class="nav-link" href="https://www.kubsu.ru">со ссылкой</a>
+				</li>
+				<li><a class="nav-link" href ="https://www.kubsu.ru/lib/images/Group3288.png">Ссылка на фрагмент стороннего сайта</a></li>
+					
+					<img src="https://i.ytimg.com/vi/tqh_z6fugJs/hq720.jpg" width="200px"usemap="#cat">
+					<map name="cat">
+						<area shape="rect" coords="0,0,80,80" href="http://www.kubsu.ru">
+						<area shape="circle" coords="160,100,40" href="http://www.kubsu.ru">
+					</map>
+					
+				<li class="nav-link" >Ссылки из прямоугольных и круглых областей картинки</li>
+				<li><a class="nav-link" href=""> Ссылка с пустым href</a></li>
+				<li><a class="nav-link" title="тут ничего нет"> Ссылка без href</a></li>
+				<li><a class="nav-link" href="index.html" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>	
+				<li><noindex><a class="nav-link" href="index.html"> Ссылка, запрещенная для индексации поисковиками</a></noindex></li>
+				
+				<li>
+					<ol class="nav-link" >
+						Нумерованный список ссылок
+						<li><a class="nav-link" href="https://www.kubsu.ru" title="Первая">ссылка</a></li>
+						<li><a class="nav-link" href="https://www.kubsu.ru" title="Вторая">ссылка</a></li>
+						<li><a class="nav-link" href="https://www.kubsu.ru" title="Третья">ссылка</a></li>
+					</ol>
+				</li>
+			</ul>
+		</div>
+		<table id = "tablic">
+			<tr class = chet>
+			   	<th>Первый</th>
+			    <th>Второй</th>
+			    <th>Третий</th>
+			    <th>Четвертый</th>
+			</tr>
+		    <tr>
+			    <td rowspan="2">ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+				<td>ф</td>
+			</tr>
+			<tr class = chet>
+			    <td>ф</td>
+			    <td colspan="2">ф</td>
+			</tr>
+			<tr>
+				<td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			</tr>
+			<tr class = chet>
+			    <td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			</tr>
+			<tr>
+			    <td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			</tr>
+			<tr class = chet>
+			    <td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			</tr>
+			<tr>
+			    <td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			    <td>ф</td>
+			</tr>
+	</div>
+	
+		</table>
+			<form action="" method="POST" id="forma">
+				<h3>Форма</h3>
+				<label>
+					Ваше ФИО
+					<br><input name ="field-name" placeholder="Введите ФИО" ></br>
+				</label>
+				<label>
+					Телефон
+					<br><input name ="field-tel" placeholder="Введите номер телефона" type="telephone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}""></br>
+				</label>
+				<label>
+					E-mail
+					<br><input name ="field-email" placeholder="Введите email" type="email" required></br>
+				</label>
+				<label>
+					Дата рождения
+					<br><input name ="field-date" placeholder="Введите дату рождения" type="date"></br>
+				</label>
+
+				<br />
+					Пол
+					<label><input type="radio" name="radio-group-1" value="Значение1" />Муж</label>
+					<label><input type="radio" name="radio-group-1" value="Значение2" />Жен</label>
+				<br/>
+
+				<label>
+					Любимый язык программирования:
+					<br>
+						<select name="listbox[]" multiple="multiple">
+							<option value="Значение1" selected="selected">Pascal</option>
+							<option value="Значение2" selected="selected">C</option>
+							<option value="Значение3" selected="selected">C++</option>
+							<option value="Значение4" selected="selected">JavaScript</option>
+							<option value="Значение5" selected="selected">PHP</option>
+							<option value="Значение6" selected="selected">Python</option>
+							<option value="Значение7" selected="selected">Java</option>
+							<option value="Значение8" selected="selected">Haskel</option>
+							<option value="Значение9" selected="selected">Clojure</option>
+							<option value="Значение10" selected="selected">Prolog</option>
+							<option value="Значение11" selected="selected">Scala</option>
+						</select>
+					<br/>
+				</label>
+
+				<label>
+					Биография:
+					<br>
+						<textarea name="field-name-2">Расскажите вашу историю</textarea>
+					</br>
+				</label>
+
+				<label>
+					<input type="checkbox" checked="checked" name="check-1">
+		        	С контрактом ознакомлен (а)
+				</label>
+				<input type="submit" value="Сохранить" />
+			</form>
+
+		<footer>
+			<h2 id="#element"class="name2">(c)Семерников Никита</h2>
+		</footer>
+</body>
