@@ -156,7 +156,7 @@ footer{
         position: absolute;
         float: right;
         margin: 20px;
-        max-width: 960px;
+        max-width: 500px;
         width: 100%;
         flex-direction: row;
     }
@@ -223,12 +223,14 @@ footer{
 
     #order {
     display: block;
-    .tablic{
+    }
+
+    #order .tablic {
         order: 0;
     }
-    #center{
+
+    #order #center {
         order: 0;
-    }
     }
     
 }
